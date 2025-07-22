@@ -51,10 +51,13 @@ body {
 
 .logos-slide {
   display: inline-block;
-  animation: 35s slide infinite linear;
+  white-space: nowrap;
+  animation: 20s slide infinite linear;
 }
 
 .logos-slide img {
   height: 50px;
   margin: 0 40px;
+  display: inline-block;
+  vertical-align: middle;
 }
