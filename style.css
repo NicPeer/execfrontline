@@ -56,8 +56,9 @@ body {
 }
 
 .logos-slide img {
-  height: 50px;
-  margin: 0 40px;
-  display: inline-block;
-  vertical-align: middle;
+  height: auto;
+  max-height: 10vh;
+  max-width: 15vw;
+  margin: 0 2vw;
+    
 }
